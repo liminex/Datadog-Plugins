@@ -1,0 +1,6 @@
+init_config:
+  default_timeout: 5
+
+instances:
+  - tungsten: 1
+
