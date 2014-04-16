@@ -1,0 +1,6 @@
+nit_config:
+  default_timeout: 5
+
+instances:
+   - instance: php-fpm
+
