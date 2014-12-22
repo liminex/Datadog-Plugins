@@ -1,6 +1,9 @@
-nit_config:
+init_config:
   default_timeout: 5
 
 instances:
-   - instance: php-fpm
+   - fpm_hostname: '127.0.0.1'  # You can run the check for different hostnames
+     # fpm_port: 9000  # Which port is fpm running on?
+     # fpm_status_uri: '/status'  # Which http endpoint to hit
+     # fpm_request_method: 'GET'  # Which http method to use
 
